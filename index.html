@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Alien Sitings</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style type="text/css">
+    button,
+    div,
+    form,
+    input {
+      margin: 10px;
+    }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Aliens R Real</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="form-group">
+            <label>Enter in a date/time</label>
+            <input type="text" class="form-control" id="date" placeholder="M/D/YYYY">
+          <!-- </div>
+          <div class="form-group"> -->
+            <label>Enter in a city</label>
+            <input type="text" class="form-control" id="city" placeholder="i.e. Phoenix">
+          <!-- </div>
+          <div class="form-group"> -->
+            <label>Enter in state</label>
+            <input type="text" class="form-control" id="state" placeholder="i.e. AZ">
+          <!-- </div>
+          <div class="form-group"> -->
+            <label>Enter in a country</label>
+            <input type="text" class="form-control" id="country" placeholder="i.e US">
+          <!-- </div>
+          <div class="form-group"> -->
+            <label>Enter in a shape</label>
+            <input type="text" class="form-control" id="shape" placeholder="i.e circle, light, triangle, unknown, other">
+          </div>
+            <button type="submit" id="search" class="btn btn-default">Search</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Date/Time</th>
+                <th>City</th>
+                <th>State</th>
+                <th>Country</th>
+                <th>Shape</th>
+                <th>Duration</th>
+                <th>Comments</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="pagination"> </div>
+    </div>
+
+    <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="data.js"></script>
+    <script src="index.js"></script>
+    
+</body>
+
+</html>

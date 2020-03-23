@@ -1,0 +1,22 @@
+.col-md-12 h1 {
+    color: goldenrod
+}
+
+.table-striped th{
+    color: whitesmoke;
+}
+
+#form-group {
+    display: inline;
+}
+
+.container { 
+
+    background-color: lightgray;
+}
+
+th {
+    border: 1rem;
+    border-radius: 25px;
+    background-color: goldenrod;
+}
